@@ -3,7 +3,7 @@ import Foundation
 // MARK: SBServiceKit
 /// Default implementation of an application.
 public struct SBServiceKit {
-  static let shared = SBServiceKit()
+  public static let shared = SBServiceKit()
     
   internal var text = "Hello, World!"
     
